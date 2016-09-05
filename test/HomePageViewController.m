@@ -11,7 +11,7 @@
 #define MYBOUNDS ([[UIScreen mainScreen] bounds])//设备尺寸
 #define MYWIDTH (MYBOUNDS.size.width)       //设备宽度
 #define MYHEIGHT (MYBOUNDS.size.height)     //设备高度
-#define MYCOLOR(R,G,B,a) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:a] //快捷颜色
+#define MYCOLOR(R,G,B,a) [UIColor colorWithRed:R/255.0 green:G/255.0 blue:B/255.0 alpha:a] //颜色
 #define Identifier @"CellIdentifier"
 @interface HomePageViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong)UITableView * tableView;
